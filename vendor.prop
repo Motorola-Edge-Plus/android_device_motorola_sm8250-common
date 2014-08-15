@@ -22,5 +22,8 @@ ro.incremental.enable=yes
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.hardware.keystore_desede=true
 
+# Performance
+ro.vendor.extension_library=libqti-perfd-client.so
+
 # WiFi
 wifi.aware.interface=wifi-aware0
