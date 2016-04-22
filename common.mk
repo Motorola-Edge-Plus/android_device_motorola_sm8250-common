@@ -79,3 +79,9 @@ $(call inherit-product, vendor/qcom/opensource/usb/vendor_product.mk)
 
 PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 TARGET_KERNEL_VERSION := 4.19
+
+# Update Engine
+PRODUCT_PACKAGES += \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
