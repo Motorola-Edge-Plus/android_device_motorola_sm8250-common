@@ -115,3 +115,7 @@ PRODUCT_PACKAGES += \
 # Vendor Service Manager
 PRODUCT_PACKAGES += \
     vndservicemanager
+
+# WiFi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service
