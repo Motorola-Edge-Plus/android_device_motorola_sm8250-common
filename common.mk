@@ -23,5 +23,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+# Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
