@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
     bootctrl.kona \
     bootctrl.kona.recovery
 
+# Fastboot
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
