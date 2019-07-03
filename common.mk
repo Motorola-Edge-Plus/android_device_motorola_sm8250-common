@@ -252,6 +252,8 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
 # QTI
+TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
+
 PRODUCT_PACKAGES += \
     libjson \
     libqti_vndfwk_detect.vendor \
