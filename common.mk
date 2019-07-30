@@ -97,6 +97,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-service.multihal
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
