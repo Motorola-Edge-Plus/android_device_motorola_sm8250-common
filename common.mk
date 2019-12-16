@@ -40,6 +40,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# GSI
+$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
+
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
