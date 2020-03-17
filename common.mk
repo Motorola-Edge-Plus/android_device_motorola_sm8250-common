@@ -85,3 +85,7 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
     update_verifier
+
+# Vendor Service Manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
