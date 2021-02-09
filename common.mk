@@ -222,6 +222,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Performance
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.2.vendor \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
 # Power
