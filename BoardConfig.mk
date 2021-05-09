@@ -20,6 +20,7 @@ AB_OTA_PARTITIONS += \
 
 # AVB
 BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # Architecture
 TARGET_ARCH := arm64
