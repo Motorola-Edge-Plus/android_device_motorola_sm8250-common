@@ -103,6 +103,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Storage
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.qti
+
 # USB
 $(call inherit-product, vendor/qcom/opensource/usb/vendor_product.mk)
 
