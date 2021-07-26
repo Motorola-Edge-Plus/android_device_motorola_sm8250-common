@@ -1,2 +1,3 @@
 # Adreno
 ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
