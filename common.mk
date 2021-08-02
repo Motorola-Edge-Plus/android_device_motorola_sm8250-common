@@ -73,3 +73,6 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Storage
 PRODUCT_CHARACTERISTICS := nosdcard
+
+# USB
+$(call inherit-product, vendor/qcom/opensource/usb/vendor_product.mk)
