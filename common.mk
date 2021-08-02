@@ -76,3 +76,6 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # USB
 $(call inherit-product, vendor/qcom/opensource/usb/vendor_product.mk)
+
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
+TARGET_KERNEL_VERSION := 4.19
