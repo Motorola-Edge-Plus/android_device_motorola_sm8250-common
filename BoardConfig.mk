@@ -130,3 +130,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 # Security
 BOOT_SECURITY_PATCH := 2022-03-01
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
+
+# SELinux
+include device/qcom/sepolicy_vndr/SEPolicy.mk
