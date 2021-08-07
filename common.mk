@@ -53,7 +53,11 @@ $(call inherit-product, vendor/qcom/opensource/display/config/display-product-ve
 BOARD_DISPLAY_HAL := hardware/qcom-caf/sm8250/display
 
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.qti
+    android.hardware.lights-service.qti \
+    gralloc.kona \
+    libtinyxml \
+    lights.kona \
+    memtrack.kona
 
 # Fastboot
 PRODUCT_PACKAGES += \
