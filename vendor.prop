@@ -33,6 +33,7 @@ persist.vendor.radio.rat_on=combine
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
+persist.vendor.sensors.sync_request=true
 
 # WiFi
 wifi.aware.interface=wifi-aware0
