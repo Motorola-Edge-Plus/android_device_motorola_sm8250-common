@@ -31,5 +31,8 @@ persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.rat_on=combine
 
+# Sensors
+persist.vendor.sensors.allow_non_default_discovery=true
+
 # WiFi
 wifi.aware.interface=wifi-aware0
