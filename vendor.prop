@@ -9,5 +9,8 @@ persist.vendor.dpmhalservice.enable=1
 # DRM
 drm.service.enabled=true
 
+# Data
+persist.vendor.data.iwlan.enable=true
+
 # WiFi
 wifi.aware.interface=wifi-aware0
