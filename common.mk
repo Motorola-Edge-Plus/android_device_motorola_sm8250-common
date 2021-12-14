@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     sound_trigger.primary.kona
 
+# Authsecret
+PRODUCT_PACKAGES += \
+    android.hardware.authsecret@1.0.vendor
+
 # Bluetooth
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
@@ -57,6 +61,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth@1.0.vendor \
     audio.bluetooth.default \
     com.dsi.ant@1.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
@@ -129,8 +134,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml
 
+PRODUCT_PACKAGES += \
+    android.hardware.gnss.measurement_corrections@1.1.vendor \
+    android.hardware.gnss.visibility_control@1.0.vendor \
+    android.hardware.gnss@2.1.vendor
+
 # GSI
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -161,6 +175,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
 
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1.vendor
+
 # Media
 $(call inherit-product, hardware/qcom-caf/sm8250/media/conf_files/kona/kona.mk)
 $(call inherit-product, hardware/qcom-caf/sm8250/media/product.mk)
@@ -174,11 +191,20 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.uicc.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service.st
+    android.hardware.nfc@1.2-service.st \
+    android.hardware.secure_element@1.2.vendor
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Net
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor
+
+# Neural Networks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -192,6 +218,10 @@ PRODUCT_PACKAGES += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Performance
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.servicetracker@1.2.vendor
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
@@ -201,6 +231,12 @@ PRODUCT_PACKAGES += \
     libjson \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti.vendor
+
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor
 
 # Sensors
 PRODUCT_COPY_FILES += \
