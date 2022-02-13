@@ -1,2 +1,5 @@
+# IMS
+ro.qcom.ims.use_moto_vt_ext=true
+
 # QC Value Addons
 ro.vendor.qti.va_aosp.support=1
