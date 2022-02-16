@@ -303,7 +303,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
-    libsensorndkbridge
+    libsensorndkbridge \
+    sensors.moto-sm8250
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
