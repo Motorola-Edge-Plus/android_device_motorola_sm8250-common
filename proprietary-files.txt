@@ -1190,7 +1190,6 @@ vendor/etc/sensors/config/tcs3708_boe_b4_always.json
 vendor/etc/sensors/config/tcs3708_csot_always.json
 vendor/etc/sensors/config/tcs3708.json
 vendor/etc/sensors/config/tcs3708_tianma_always.json
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsnsapi.so
