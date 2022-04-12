@@ -322,6 +322,7 @@ vendor/firmware/mot_bm24218_tele.coeff
 vendor/firmware/mot_bm24218_tele.prog
 vendor/firmware/mot_bu63169.coeff
 vendor/firmware/mot_bu63169.prog
+vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib64/camera/components/com.arcsoft.node.dc_capture.so
 vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so
