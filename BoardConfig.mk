@@ -28,6 +28,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a9
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/modules.load))
 TARGET_KERNEL_CONFIG := \
     vendor/kona-perf_defconfig \
     vendor/ext_config/moto-kona.config \
