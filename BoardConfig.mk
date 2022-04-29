@@ -15,7 +15,11 @@ AB_OTA_PARTITIONS += \
     recovery \
     system \
     system_ext \
+    vbmeta \
     vendor
+
+# AVB
+BOARD_AVB_ENABLE := true
 
 # Architecture
 TARGET_ARCH := arm64
