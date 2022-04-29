@@ -1,0 +1,9 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from Motorola Edge Plus (S1PB32.41-10-17).
+
+# FASTCV
+-vendor/lib/libfastcvopt.so
+-vendor/lib64/libfastcvopt.so
+
+# Thermal
+-vendor/lib64/libthermalclient.so
