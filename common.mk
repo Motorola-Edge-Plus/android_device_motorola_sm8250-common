@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
 # APEX
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Audio
+$(call inherit-product, hardware/qcom-caf/sm8250/audio/configs/kona/kona.mk)
+$(call inherit-product, vendor/qcom/opensource/audio/configs/qssi/qssi.mk)
+
 # Boot Control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
