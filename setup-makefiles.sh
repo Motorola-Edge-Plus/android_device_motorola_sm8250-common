@@ -8,7 +8,7 @@
 
 set -e
 
-PLATFORM=sm8250-common
+DEVICE=sm8250-common
 VENDOR=motorola
 
 # Load extract_utils and do some sanity checks
@@ -25,7 +25,7 @@ fi
 source "${HELPER}"
 
 # Initialize the helper
-setup_vendor "${PLATFORM}" "${VENDOR}" "${ANDROID_ROOT}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
 # Warning headers and guards
 write_headers

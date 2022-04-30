@@ -8,7 +8,7 @@
 
 set -e
 
-PLATFORM=sm8250-common
+DEVICE=sm8250-common
 VENDOR=motorola
 
 # Load extract utilities and do some sanity checks.
@@ -54,7 +54,7 @@ if [ -z "${SRC}" ]; then
 fi
 
 # Initialize the helper.
-setup_vendor "${PLATFORM}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 
