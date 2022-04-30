@@ -45,6 +45,8 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Display
+include hardware/qcom-caf/sm8250/display/config/display-board.mk
+
 TARGET_SCREEN_DENSITY := 440
 
 # Filesystem
