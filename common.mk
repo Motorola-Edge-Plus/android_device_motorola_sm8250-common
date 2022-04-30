@@ -76,6 +76,10 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+# Media
+$(call inherit-product, hardware/qcom-caf/sm8250/media/conf_files/kona/kona.mk)
+$(call inherit-product, hardware/qcom-caf/sm8250/media/product.mk)
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
