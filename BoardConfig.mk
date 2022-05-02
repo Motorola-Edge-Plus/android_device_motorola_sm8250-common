@@ -120,6 +120,10 @@ TARGET_MODULE_ALIASES += \
     wsa881x_dlkm.ko:audio_wsa881x.ko \
     wsa_macro_dlkm.ko:audio_wsa_macro.ko
 
+# Kernel modules (WiFi)
+TARGET_MODULE_ALIASES += \
+    wlan.ko:qca_cld3_qca6390.ko
+
 # Manifest
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/moto_vfcm.xml \
