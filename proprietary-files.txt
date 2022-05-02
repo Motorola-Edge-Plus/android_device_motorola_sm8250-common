@@ -455,13 +455,11 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libmdmcutback.so
 vendor/lib64/libmot_afd.so
 vendor/lib64/libmot_chi_desktop_helper.so
 vendor/lib64/libmot_flash_aw3643.so
 vendor/lib64/libmot_lux_standardization.so
 vendor/lib64/libmotcameramodulemonitor.so
-vendor/lib64/libmotext_inf.so
 vendor/lib64/libmotgyroextractor.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libofflinelog.so
@@ -955,6 +953,13 @@ vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libsmemlog.so
 vendor/lib64/libsystem_health_mon.so
+
+# QMI (Motorola Extension)
+vendor/bin/qmi_motext_hook
+vendor/lib64/libadropbox.so
+vendor/lib64/libmdmcutback.so
+vendor/lib64/libmotext_inf.so
+vendor/lib64/libqmimotext.so
 
 # QCRIL
 vendor/bin/hw/qcrild
