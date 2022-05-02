@@ -200,7 +200,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st \
-    android.hardware.secure_element@1.2.vendor
+    android.hardware.secure_element@1.2.vendor \
+    libchrome.vendor
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
