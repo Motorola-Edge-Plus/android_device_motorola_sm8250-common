@@ -184,6 +184,9 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/qcom-caf/sm8250/media/conf_files/kona/kona.mk)
 $(call inherit-product, hardware/qcom-caf/sm8250/media/product.mk)
 
+PRODUCT_PACKAGES += \
+    libavservices_minijail.vendor
+
 # NFC
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hcef.xml \
