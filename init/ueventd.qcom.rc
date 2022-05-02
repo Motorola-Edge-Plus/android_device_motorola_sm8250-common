@@ -492,3 +492,10 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # I2C
 /dev/i2c-*                0660   system     system
+
+# Motorola: Add for QVR(qvrservice) to access the glass usb device
+/dev/bus/usb/001/001     0660    system     system
+/dev/bus/usb/001/002     0660    system     system
+/dev/bus/usb/001/003     0660    system     system
+/dev/bus/usb/002/001     0660    system     system
+/dev/bus/usb/002/002     0660    system     system
