@@ -926,6 +926,23 @@ on property:vendor.opengles.version=*
 on property:vendor.gpu.available_frequencies=*
     setprop ro.vendor.gpu.available_frequencies ${vendor.gpu.available_frequencies}
 
+# huangzq2: GPU trubo
+on property:vendor.gpu.turbo_enabled=1
+    setprop vendor.thermal.mode perf
+    stop thermal-engine
+    start thermal-engine
+
+on property:vendor.gpu.turbo_enabled=0
+    setprop vendor.thermal.mode normal
+    stop thermal-engine
+    start thermal-engine
+
+on property:vendor.gpu.turbo_supported=1 && property:vendor.gpu.turbo_enabled=1
+    write /sys/class/kgsl/kgsl-3d0/max_pwrlevel 0
+
+on property:vendor.gpu.turbo_supported=1 && property:vendor.gpu.turbo_enabled=0
+    write /sys/class/kgsl/kgsl-3d0/max_pwrlevel 1
+
 service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     override
     class hal
