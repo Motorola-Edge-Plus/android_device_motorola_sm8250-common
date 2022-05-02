@@ -82,6 +82,14 @@ on post-fs-data
 #    start vendor.sensors
 
 on boot
+    # CPUset policy is "spread" for foreground/top, "pack" for background/system
+    # Cores 0-3 are silver, 4-6 are gold, 7 is gold+
+    # Keep 1 reserved for top (gold+)
+    # Keep 1 for system/background (silver)
+    write /dev/cpuset/top-app/cpus 0-7
+    write /dev/cpuset/foreground/cpus 1-6
+    write /dev/cpuset/background/cpus 0-3
+    write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/audio-app/cpus 1-2
     # Add a cpuset for the camera daemon
     # We want all cores for camera
