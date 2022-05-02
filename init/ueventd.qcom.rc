@@ -360,6 +360,9 @@ firmware_directories /vendor/firmware_mnt/image/
 # This is temporary while using SD card for initial bring-up
 /dev/block/platform/soc/8804000.sdhci/by-name/frp       0600   system     system
 
+# Add device block for MISC
+/dev/block/platform/soc/1d84000.ufshc/by-name/misc       0660   root     system
+
 # Kmsg device
 /dev/kmsg                                               0620   root       system
 
