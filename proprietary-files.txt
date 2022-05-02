@@ -539,6 +539,13 @@ vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 
+# Debug
+vendor/bin/apanic_copy.sh
+vendor/bin/apanic_save.sh
+vendor/bin/aplogd
+vendor/bin/mbm_spy
+vendor/bin/pstore_annotate.sh
+
 # Diag
 vendor/lib/libdiag.so
 vendor/lib64/libdiag.so
@@ -702,6 +709,24 @@ vendor/firmware/aw8697_rtp_Pyxis.bin
 vendor/firmware/aw8697_rtp_Simple.bin
 vendor/firmware/aw8697_rtp_Sparse.bin
 vendor/firmware/aw8697_rtp_Zero_Hour.bin
+
+# Init
+vendor/bin/hardware_revisions.sh
+vendor/bin/init.mmi.block_perm.sh
+vendor/bin/init.mmi.boot.sh
+vendor/bin/init.mmi.laser.sh
+vendor/bin/init.mmi.modules.sh
+vendor/bin/init.mmi.shutdown.sh
+vendor/bin/init.mmi.touch.sh
+vendor/bin/init.mmi.usb.sh
+vendor/bin/init.mmi.wls.sh
+vendor/bin/init.oem.hw.sh
+vendor/etc/init/hw/init.mmi.charge_only.rc
+vendor/etc/init/hw/init.mmi.chipset.rc
+vendor/etc/init/hw/init.mmi.debug.rc
+vendor/etc/init/hw/init.mmi.overlay.rc
+vendor/etc/init/hw/init.mmi.rc
+vendor/etc/init/hw/init.mmi.usb.rc
 
 # IMS
 vendor/bin/ims_rtp_daemon
