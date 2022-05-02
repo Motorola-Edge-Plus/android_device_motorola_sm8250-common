@@ -1146,6 +1146,7 @@ vendor/lib64/libtzdrmgenprov.so
 
 # Sensors
 vendor/bin/init.qcom.sensors.sh
+vendor/bin/motpsd
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
 vendor/bin/vl53l1_daemon
