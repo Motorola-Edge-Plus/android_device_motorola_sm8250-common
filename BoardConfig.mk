@@ -54,7 +54,9 @@ include hardware/qcom-caf/sm8250/display/config/display-board.mk
 TARGET_SCREEN_DENSITY := 440
 
 # Filesystem
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+TARGET_FS_CONFIG_GEN := \
+    $(COMMON_PATH)/config.fs \
+    $(COMMON_PATH)/moto_config.fs
 
 # Hacks
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
