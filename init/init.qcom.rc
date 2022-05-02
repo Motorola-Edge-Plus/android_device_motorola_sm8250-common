@@ -431,7 +431,7 @@ service vendor.ssr_setup /system/vendor/bin/ssr_setup
 service vendor.ss_ramdump /system/vendor/bin/subsystem_ramdump
     class main
     user system
-    group system
+    group log sdcard_rw sdcard_r diag system
     ioprio rt 4
     disabled
 
