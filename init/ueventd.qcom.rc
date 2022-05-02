@@ -499,3 +499,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /dev/bus/usb/001/003     0660    system     system
 /dev/bus/usb/002/001     0660    system     system
 /dev/bus/usb/002/002     0660    system     system
+
+# NFC ST Driver permissions
+/dev/st21nfc              0660   nfc        nfc
