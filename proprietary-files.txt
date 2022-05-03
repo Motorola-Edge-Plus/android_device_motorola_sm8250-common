@@ -847,6 +847,7 @@ vendor/lib64/libqcodec2_v4l2codec.so
 
 # NFC
 vendor/bin/STFlashTool
+vendor/etc/init/android.hardware.nfc@1.2-service.st.rc
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci-st.conf
 vendor/etc/st54j_conf_ds.txt
