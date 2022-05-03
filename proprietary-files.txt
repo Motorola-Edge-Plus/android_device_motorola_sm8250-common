@@ -987,6 +987,9 @@ vendor/lib64/libsystem_health_mon.so
 
 # QMI (Motorola Extension)
 vendor/bin/qmi_motext_hook
+vendor/etc/motorola/mdmctbk/canada_ctbk_cfg.xml
+vendor/etc/motorola/mdmctbk/ctbk_cfg.xml
+vendor/etc/motorola/mdmctbk/vzw_ctbk_cfg.xml
 vendor/lib64/libadropbox.so
 vendor/lib64/libmdmcutback.so
 vendor/lib64/libmotext_inf.so
