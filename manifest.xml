@@ -171,9 +171,7 @@
         <version>1.2</version>
         <interface>
             <name>ISecureElement</name>
-            <instance>eSE1</instance>
             <instance>SIM1</instance>
-            <instance>SIM2</instance>
         </interface>
     </hal>
     <!-- eSEPowerManager -->
@@ -231,9 +229,7 @@
         <name>android.hardware.radio</name>
         <transport>hwbinder</transport>
         <fqname>@1.5::IRadio/slot1</fqname>
-        <fqname>@1.5::IRadio/slot2</fqname>
         <fqname>@1.2::ISap/slot1</fqname>
-        <fqname>@1.2::ISap/slot2</fqname>
     </hal>
     <!-- RADIO CONFIG -->
     <hal format="hidl">
@@ -253,7 +249,6 @@
         <interface>
             <name>IQcRilAudio</name>
             <instance>slot1</instance>
-            <instance>slot2</instance>
         </interface>
     </hal>
     <!-- radio ims -->
@@ -339,7 +334,6 @@
         <interface>
             <name>IQtiRadio</name>
             <instance>slot1</instance>
-            <instance>slot2</instance>
         </interface>
     </hal>
     <!-- deviceInfo HAL -->
@@ -370,7 +364,6 @@
         <interface>
             <name>IQtiRadio</name>
             <instance>slot1</instance>
-            <instance>slot2</instance>
         </interface>
     </hal>
     <!-- IMS UCE Service -->
@@ -447,7 +440,6 @@
         <interface>
             <name>IIWlan</name>
             <instance>slot1</instance>
-            <instance>slot2</instance>
         </interface>
     </hal>
     <!-- Data Link Latency -->
@@ -467,7 +459,6 @@
         <interface>
             <name>IDataConnection</name>
             <instance>slot1</instance>
-            <instance>slot2</instance>
         </interface>
     </hal>
     <hal format="hidl">
