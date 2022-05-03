@@ -51,6 +51,7 @@ vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Adreno
+-vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk;PRESIGNED
 vendor/firmware/a650_gmu.bin
 vendor/firmware/a650_sqe.fw
 vendor/lib/egl/eglSubDriverAndroid.so
