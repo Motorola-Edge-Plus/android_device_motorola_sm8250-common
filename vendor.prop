@@ -18,6 +18,7 @@ vendor.qcom.bluetooth.soc=hastings
 
 # DPM
 persist.vendor.dpmhalservice.enable=1
+persist.vendor.dpm.feature=1
 
 # DRM
 drm.service.enabled=true
