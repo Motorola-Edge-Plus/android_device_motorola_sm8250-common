@@ -977,8 +977,6 @@ vendor/etc/init/init.qti.qcv.rc
 # QMI
 vendor/bin/irsc_util
 vendor/bin/qmipriod
-vendor/bin/qrtr-cfg
-vendor/bin/qrtr-lookup
 vendor/bin/qrtr-ns
 vendor/etc/init/qmipriod.rc
 vendor/etc/init/qmipriod.debug.rc
