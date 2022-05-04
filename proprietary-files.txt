@@ -1040,8 +1040,6 @@ system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
 -system_ext/framework/qcrilhook.jar
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrild
-vendor/bin/qtigetprop
-vendor/bin/qtisetprop
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/qcrild.rc
 vendor/lib64/deviceInfoServiceModule.so
