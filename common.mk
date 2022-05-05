@@ -228,6 +228,9 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon \
     WifiResCommon
 
+PRODUCT_PACKAGES += \
+    MotoSm8250WifiRes
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
