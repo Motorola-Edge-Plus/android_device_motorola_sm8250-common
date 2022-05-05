@@ -5826,6 +5826,9 @@ case "$target" in
 	setprop vendor.dcvs.prop 1
     echo N > /sys/module/lpm_levels/parameters/sleep_disabled
     configure_memory_parameters
+
+	# Log kernel wake-up source
+	echo 1 > /sys/module/msm_show_resume_irq/parameters/debug_mask
     ;;
 esac
 
