@@ -229,6 +229,7 @@ PRODUCT_PACKAGES += \
     WifiResCommon
 
 PRODUCT_PACKAGES += \
+    MotoSm8250Frameworks \
     MotoSm8250WifiRes
 
 # Partitions
