@@ -637,9 +637,6 @@ vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc
-vendor/etc/vintf/manifest/vendor.goodix.hardware.biometrics.fingerprint@2.1-service.xml
 vendor/firmware/goodix_cfg_group2.bin
 vendor/firmware/goodix_cfg_group.bin
 vendor/firmware/goodix_cfg_group_smd.bin
