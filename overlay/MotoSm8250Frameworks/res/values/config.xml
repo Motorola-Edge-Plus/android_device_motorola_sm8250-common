@@ -5,6 +5,14 @@
 -->
 <resources>
 
+    <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
+         when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
+         where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
+         and Strength as defined in Authenticators.java -->
+    <string-array name="config_biometric_sensors" translatable="false" >
+        <item>0:2:15</item>
+    </string-array>
+
     <!-- Default files to pin via Pinner Service -->
     <array name="config_defaultPinnerServiceFiles">
         <item>/system/framework/arm64/boot-framework.oat</item>
