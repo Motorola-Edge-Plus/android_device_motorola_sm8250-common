@@ -731,7 +731,6 @@ vendor/firmware/aw8697_rtp_Sparse.bin
 vendor/firmware/aw8697_rtp_Zero_Hour.bin
 
 # Init
-vendor/bin/expat
 vendor/bin/hardware_revisions.sh
 vendor/bin/init.mmi.block_perm.sh
 vendor/bin/init.mmi.boot.sh
