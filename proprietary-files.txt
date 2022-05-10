@@ -637,11 +637,6 @@ vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
 
 # Fingerprint
-vendor/firmware/goodix_cfg_group2.bin
-vendor/firmware/goodix_cfg_group.bin
-vendor/firmware/goodix_cfg_group_smd.bin
-vendor/firmware/goodix-gtx5-38-04-foles.bin
-vendor/firmware/goodix-gtx8-01-14-burton.bin
 vendor/lib64/hw/fingerprint.goodix.so
 vendor/lib64/com.motorola.hardware.biometric.fingerprint@1.0.so
 vendor/lib64/libgf_hal.so
@@ -1293,6 +1288,11 @@ vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
 # Touchscreen
+vendor/firmware/goodix_cfg_group2.bin
+vendor/firmware/goodix_cfg_group.bin
+vendor/firmware/goodix_cfg_group_smd.bin
+vendor/firmware/goodix-gtx5-38-04-foles.bin
+vendor/firmware/goodix-gtx8-01-14-burton.bin
 vendor/firmware/samsung-boe-se77c-20012020-17910103-burton-dvt1.bin
 vendor/firmware/samsung-boe-se77c-20040310-17910109-burton-dvt2.bin
 vendor/firmware/samsung-boe-se77c-20040310-17910305-burton.bin
