@@ -1,2 +1,9 @@
+# LMK
+ro.lmk.kill_heaviest_task=true
+ro.lmk.thrashing_limit=60
+ro.lmk.swap_free_low_percentage=20
+ro.lmk.swap_util_max=80
+ro.lmk.psi_complete_stall_ms=80
+
 # Media
 vendor.mm.enable.qcom_parser=135714
