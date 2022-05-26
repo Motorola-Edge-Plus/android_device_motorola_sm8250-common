@@ -1,4 +1,5 @@
 # Audio
+persist.vendor.audio.voicecall.speaker.stereo=false
 vendor.audio.feature.fluence.enable=false
 
 # QC Value Addons
