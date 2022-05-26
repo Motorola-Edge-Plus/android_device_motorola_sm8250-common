@@ -1115,6 +1115,9 @@ vendor/radio/qcril_database/upgrade/30_version_qcrildb.sql
 vendor/radio/qcril_database/upgrade/36_version_qcrildb.sql
 vendor/radio/qcril_database/qcril.db
 
+# QCRIL - Moto
+framework/moto-telephony.jar:system_ext/framework/moto-telephony.jar
+
 # QTEE
 vendor/lib64/libGPQTEEC_vendor.so
 vendor/lib64/libGPTEE_vendor.so
