@@ -316,7 +316,6 @@ vendor/lib64/libcvp2.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libcvp2_hfi.so
-vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Camera
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
