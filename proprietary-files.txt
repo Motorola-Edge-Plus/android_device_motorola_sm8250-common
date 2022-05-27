@@ -940,10 +940,6 @@ vendor/etc/powerhint.xml
 # Public Libraries
 vendor/etc/public.libraries.txt
 
-# QDMA
-vendor/etc/init/init.qdmastats.rc
-vendor/lib64/libqdma_file_agent.so
-
 # QCV
 vendor/bin/init.qti.qcv.sh
 vendor/etc/init/init.qti.qcv.rc
