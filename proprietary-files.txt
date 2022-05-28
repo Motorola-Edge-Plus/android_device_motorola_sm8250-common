@@ -1071,7 +1071,6 @@ vendor/lib64/libscveObjectTracker_stub.so
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/lib64/libminkdescriptor.so
-vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
 # Sensors
