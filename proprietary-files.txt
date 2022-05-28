@@ -1152,10 +1152,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/bin/tftp_server
 vendor/etc/init/vendor.qti.tftp.rc
 
-# TLOC
-vendor/bin/tloc_daemon
-vendor/etc/init/tloc_daemon.rc
-
 # Thermal
 vendor/bin/hw/vendor.qti.hardware.limits@1.0-service
 vendor/bin/thermal-engine
@@ -1173,6 +1169,10 @@ vendor/lib64/vendor.qti.hardware.limits@1.0.so
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
+
+# TLOC
+vendor/bin/tloc_daemon
+vendor/etc/init/tloc_daemon.rc
 
 # Touchscreen
 vendor/firmware/goodix_cfg_group2.bin
