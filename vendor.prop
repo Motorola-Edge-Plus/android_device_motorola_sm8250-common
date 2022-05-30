@@ -16,6 +16,9 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=hastings
 
+# Camera
+camera.disable_zsl_mode=1
+
 # DPM
 persist.vendor.dpmhalservice.enable=1
 persist.vendor.dpm.feature=1
