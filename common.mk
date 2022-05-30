@@ -287,7 +287,7 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge
 
 # Shipping API
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Storage
 PRODUCT_CHARACTERISTICS := nosdcard
