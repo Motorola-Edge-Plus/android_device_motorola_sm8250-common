@@ -434,6 +434,8 @@ vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libsynx.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libthreadutils.so
+vendor/lib64/libtriplecam_image_optical_zoom.so
+vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvidhance.so
 vendor/lib64/motorola.hardware.camera.desktop@1.0.so
