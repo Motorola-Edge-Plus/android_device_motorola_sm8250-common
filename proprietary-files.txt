@@ -421,6 +421,7 @@ vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libipebpsstriping.so
+vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libmot_afd.so
 vendor/lib64/libmot_chi_desktop_helper.so
 vendor/lib64/libmot_flash_aw3643.so
