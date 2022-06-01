@@ -90,5 +90,8 @@ telephony.lteOnCdmaDevice=1
 persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.sync_request=true
 
+# SSR
+persist.vendor.ssr.restart_level=ALL_ENABLE
+
 # WiFi
 wifi.aware.interface=wifi-aware0
