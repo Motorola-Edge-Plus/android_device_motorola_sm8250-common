@@ -26,6 +26,9 @@ drm.service.enabled=true
 # Data
 persist.vendor.data.iwlan.enable=true
 
+# Fingerprint
+ro.hardware.fingerprint=goodix
+
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 
