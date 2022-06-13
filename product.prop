@@ -8,6 +8,9 @@ ro.lmk.psi_complete_stall_ms=80
 # Media
 vendor.mm.enable.qcom_parser=135714
 
+# Motorola
+ro.mot.build.customerid=retail
+
 # RIL
 ro.telephony.default_network=27
 ro.vendor.radio.imei.sv=26
