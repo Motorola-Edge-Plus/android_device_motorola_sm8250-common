@@ -57,8 +57,7 @@ PRODUCT_PACKAGES += \
     liba2dpoffload \
     libtinyalsa.vendor \
     libqcomvisualizer \
-    libqcomvoiceprocessing \
-    sound_trigger.primary.kona
+    libqcomvoiceprocessing
 
 # Authsecret
 PRODUCT_PACKAGES += \
