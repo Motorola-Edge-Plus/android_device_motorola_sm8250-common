@@ -192,6 +192,7 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.recovery.rc \
     init.qcom.sh \
+    init.qti.dcvs.sh \
     init.target.rc \
     ueventd.qcom.rc
 
