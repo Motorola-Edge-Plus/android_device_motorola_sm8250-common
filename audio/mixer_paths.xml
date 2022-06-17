@@ -1034,7 +1034,7 @@
 
 	<path name="handset-mic">
 		<path name="mic1" />
-		<ctl name="IN1L Volume" value="12" />
+		<ctl name="IN1L Volume" value="16" />
 	</path>
 
 	<path name="headphones">
@@ -1273,9 +1273,9 @@
 
 	<path name="dmic-endfire">
 		<path name="voice-dmic-ef" />
-		<ctl name="IN1L Volume" value="12" />
-		<ctl name="IN2L Volume" value="12" />
-		<ctl name="IN2R Volume" value="12" />
+		<ctl name="IN1L Volume" value="16" />
+		<ctl name="IN2L Volume" value="16" />
+		<ctl name="IN2R Volume" value="16" />
 	</path>
 
 	<path name="voice-speaker-dmic-ef">
