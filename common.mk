@@ -260,6 +260,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotoSm8250Frameworks \
     MotoSm8250LineageSDK \
+    MotoSm8250LineageSystemUI \
     MotoSm8250WifiRes
 
 # Partitions
