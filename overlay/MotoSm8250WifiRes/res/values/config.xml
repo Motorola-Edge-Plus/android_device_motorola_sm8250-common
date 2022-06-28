@@ -53,7 +53,7 @@
         <item>20</item>
         <item>40</item>
         <item>80</item>
-        <item>160</item>
+        <item>80</item>
     </integer-array>
 
     <!--
@@ -75,9 +75,9 @@
     <integer-array name="config_wifiRssiLevelThresholds">
                          <!-- RSSI                RSSI Level -->
         <item>-88</item> <!-- (-infinity, -88)             0 -->
-        <item>-77</item> <!-- [-88, -77)                   1 -->
-        <item>-66</item> <!-- [-77, -66)                   2 -->
-        <item>-55</item> <!-- [-66, -55)                   3 -->
+        <item>-82</item> <!-- [-88, -77)                   1 -->
+        <item>-75</item> <!-- [-77, -66)                   2 -->
+        <item>-65</item> <!-- [-66, -55)                   3 -->
                          <!-- [-55, +infinity)             4 -->
     </integer-array>
 
