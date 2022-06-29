@@ -546,14 +546,12 @@ vendor/lib64/libdpmqmihal.so
 -system_ext/app/atfwd/atfwd.apk
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
-vendor/bin/embmsslServer
 vendor/bin/netmgrd
 vendor/bin/port-bridge
 vendor/bin/qti
 vendor/bin/shsusrd
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
-vendor/etc/init/init.embmssl_server.rc
 vendor/etc/init/ipa_fws.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
@@ -574,7 +572,6 @@ vendor/firmware/ipa_uc.mdt
 vendor/lib64/libconfigdb.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
-vendor/lib64/libembmsservice.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnetmgr_nr_fusion.so
@@ -583,10 +580,6 @@ vendor/lib64/libnlnetmgr.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
-vendor/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so
-vendor/lib64/vendor.qti.hardware.embmssl@1.0.so
-vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so
-vendor/lib64/vendor.qti.hardware.embmssl@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 
 # Diag
