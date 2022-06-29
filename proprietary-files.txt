@@ -168,9 +168,6 @@ vendor/firmware/marley-dsp2-aov-vrgain.bin
 vendor/firmware/marley-dsp3-aov-control.wmfw
 vendor/lib/soundfx/libspeakerbundle.so
 
-# Battery
-vendor/bin/batt_health
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
