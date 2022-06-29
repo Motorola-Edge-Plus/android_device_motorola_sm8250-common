@@ -591,13 +591,6 @@ vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 
-# Debug
-vendor/bin/apanic_copy.sh
-vendor/bin/apanic_save.sh
-vendor/bin/aplogd
-vendor/bin/mbm_spy
-vendor/bin/pstore_annotate.sh
-
 # Diag
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
@@ -748,7 +741,6 @@ vendor/bin/init.oem.hw.sh
 vendor/bin/motobox
 vendor/etc/init/hw/init.mmi.charge_only.rc
 vendor/etc/init/hw/init.mmi.chipset.rc
-vendor/etc/init/hw/init.mmi.debug.rc
 vendor/etc/init/hw/init.mmi.overlay.rc
 vendor/etc/init/hw/init.mmi.rc
 vendor/etc/init/hw/init.mmi.usb.rc
