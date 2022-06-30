@@ -700,20 +700,6 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 # Haptics
 vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_osc_rtp_24K_5s.bin
-vendor/firmware/aw8697_rtp_Attentive.bin
-vendor/firmware/aw8697_rtp.bin
-vendor/firmware/aw8697_rtp_Bird_Loop.bin
-vendor/firmware/aw8697_rtp_Crazy_Dream.bin
-vendor/firmware/aw8697_rtp_Curve_Ball_Blend.bin
-vendor/firmware/aw8697_rtp_Ether_Shake.bin
-vendor/firmware/aw8697_rtp_Hello.bin
-vendor/firmware/aw8697_rtp_Momentum.bin
-vendor/firmware/aw8697_rtp_Moto.bin
-vendor/firmware/aw8697_rtp_Natural.bin
-vendor/firmware/aw8697_rtp_Pyxis.bin
-vendor/firmware/aw8697_rtp_Simple.bin
-vendor/firmware/aw8697_rtp_Sparse.bin
-vendor/firmware/aw8697_rtp_Zero_Hour.bin
 
 # Init
 vendor/bin/hardware_revisions.sh
