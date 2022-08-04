@@ -1165,6 +1165,9 @@ vendor/lib64/libssc.so
 vendor/lib64/sensors.moto.so
 vendor/lib64/sensors.ssc.so
 
+# Sound trigger
+vendor/lib/hw/sound_trigger.primary.default.so
+
 # SSR
 vendor/bin/ssr_setup
 
