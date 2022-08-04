@@ -708,6 +708,12 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_osc_rtp_24K_5s.bin
 
+# Hotword
+-product/priv-app/HotwordEnrollmentOKGoogleWM8280/HotwordEnrollmentOKGoogleWM8280.apk
+-product/priv-app/HotwordEnrollmentXGoogleWM8280/HotwordEnrollmentXGoogleWM8280.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # Init
 vendor/bin/hardware_revisions.sh
 vendor/bin/init.mmi.block_perm.sh
