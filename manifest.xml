@@ -329,6 +329,16 @@
             <instance>com.qualcomm.qti.uceservice</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>motorola.hardware.audio.adspd</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IADSP</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IADSP/default</fqname>
+    </hal>
     <!-- IMS callinfo Service -->
     <hal format="hidl">
         <name>vendor.qti.ims.callinfo</name>

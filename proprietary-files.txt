@@ -20,7 +20,6 @@ vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/libsysmon_cdsp_skel.so
-vendor/lib64/motorola.hardware.audio.adspd@1.0.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # ADSP Modules
@@ -49,6 +48,14 @@ vendor/lib/rfsa/adsp/libtracker_6dof_skel_8250.so
 vendor/lib/rfsa/adsp/libtracker_6dof_skel_8350.so
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
+
+# ADSP Daemon
+vendor/bin/hw/motorola.hardware.audio.adspd@1.0-service
+vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc
+vendor/lib/motorola.hardware.audio.adspd@1.0_vendor.so
+vendor/lib64/vndk/libtinyalsa.so
+vendor/lib64/motorola.hardware.audio.adspd@1.0-impl.so
+vendor/lib64/motorola.hardware.audio.adspd@1.0.so
 
 # Adreno
 -vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk;PRESIGNED
