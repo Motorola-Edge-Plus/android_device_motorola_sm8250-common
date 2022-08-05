@@ -151,9 +151,17 @@
 	<device name="SND_DEVICE_IN_BT_SCO_MIC_WB" interface="SLIMBUS_7_TX"/>
 	<device name="SND_DEVICE_IN_BT_SCO_MIC_WB_NREC" interface="SLIMBUS_7_TX"/>
 	<device name="SND_DEVICE_IN_HANDSET_MIC" interface="QUAT_TDM_TX_0"/>
+	<device name="SND_DEVICE_IN_HANDSET_MIC_SB" interface="QUAT_TDM_TX_0"/>
+	<device name="SND_DEVICE_IN_HANDSET_MIC_NN" interface="QUAT_TDM_TX_0"/>
 	<device name="SND_DEVICE_IN_HANDSET_MIC_AEC" interface="QUAT_TDM_TX_0"/>
+	<device name="SND_DEVICE_IN_HANDSET_MIC_AEC_SB" interface="QUAT_TDM_TX_0"/>
+	<device name="SND_DEVICE_IN_HANDSET_MIC_AEC_NN" interface="QUAT_TDM_TX_0"/>
 	<device name="SND_DEVICE_IN_HANDSET_MIC_NS" interface="QUAT_TDM_TX_0"/>
+	<device name="SND_DEVICE_IN_HANDSET_MIC_NS_SB" interface="QUAT_TDM_TX_0"/>
+	<device name="SND_DEVICE_IN_HANDSET_MIC_NS_NN" interface="QUAT_TDM_TX_0"/>
 	<device name="SND_DEVICE_IN_HANDSET_MIC_AEC_NS" interface="QUAT_TDM_TX_0"/>
+	<device name="SND_DEVICE_IN_HANDSET_MIC_AEC_NS_SB" interface="QUAT_TDM_TX_0"/>
+	<device name="SND_DEVICE_IN_HANDSET_MIC_AEC_NS_NN" interface="QUAT_TDM_TX_0"/>
 	<device name="SND_DEVICE_IN_HANDSET_DMIC" interface="QUAT_TDM_TX_0"/>
 	<device name="SND_DEVICE_IN_HANDSET_DMIC_AEC" interface="QUAT_TDM_TX_0"/>
 	<device name="SND_DEVICE_IN_HANDSET_DMIC_NS" interface="QUAT_TDM_TX_0"/>
