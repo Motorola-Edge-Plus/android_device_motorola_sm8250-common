@@ -22,6 +22,9 @@ vendor.qcom.bluetooth.soc=hastings
 # Camera
 camera.disable_zsl_mode=1
 
+# Display
+persist.sys.sf.native_mode=1
+
 # DPM
 persist.vendor.dpmhalservice.enable=1
 persist.vendor.dpm.feature=1
