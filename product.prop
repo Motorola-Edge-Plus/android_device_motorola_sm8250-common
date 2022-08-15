@@ -1,3 +1,6 @@
+# Display
+persist.sys.sf.color_mode=0
+
 # LMK
 ro.lmk.kill_heaviest_task=true
 ro.lmk.thrashing_limit=60
